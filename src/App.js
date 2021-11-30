@@ -5,6 +5,9 @@ import Greetings from './components/Greetings';
 import BoxColor from './components/BoxColor';
 import Random from './components/Random';
 import CreditCard from './components/CreditCard';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
 
 function App() {
   return (
@@ -63,6 +66,12 @@ function App() {
     owner="Firstname Lastname"
     bgColor="#ddbb55"
     color="white" />
+    <LikeButton />
+    <ClickablePicture
+        img='https://github.com/ironhack-labs/lab-react-training/blob/master/src/assets/images/maxence.png?raw=true'
+        imgClicked='https://github.com/ironhack-labs/lab-react-training/blob/master/src/assets/images/maxence-glasses.png?raw=true'
+      />
+      <Dice />
     </>
     
   );

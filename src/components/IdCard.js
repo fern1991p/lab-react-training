@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 export default function IdCard(props) {
     let {lastName, firstName, gender, height, birth, picture} = props
     console.log(birth)
